@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="Four_Storyboard_Template" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ulo-uH-zbV">
+                                <rect key="frame" x="47" y="378" width="120" height="40"/>
+                                <color key="backgroundColor" red="0.42352941179999998" green="0.23137254900000001" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="BpP-NQ-9eC"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="xFG-Ev-kFx"/>
+                                </constraints>
+                                <state key="normal" title="Student 1">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2KE-xl-tS6" kind="show" id="sbf-hC-36D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYE-bi-jDE">
+                                <rect key="frame" x="247" y="378" width="120" height="40"/>
+                                <color key="backgroundColor" red="0.42352941179999998" green="0.23137254900000001" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="JMz-TJ-Sa6"/>
+                                    <constraint firstAttribute="height" constant="40" id="xif-Rj-NiK"/>
+                                </constraints>
+                                <state key="normal" title="Student 2">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nuj-Wg-nlI" kind="show" id="B5K-gh-WSC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cit-oD-BJx">
+                                <rect key="frame" x="47" y="478" width="120" height="40"/>
+                                <color key="backgroundColor" red="0.42352941179999998" green="0.23137254900000001" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Hkd-a7-3u2"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="Vca-cn-IPV"/>
+                                </constraints>
+                                <state key="normal" title="Student 3">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fjv-2r-uVb" kind="show" id="4Kb-bV-OfS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOq-W6-X3K">
+                                <rect key="frame" x="247" y="478" width="120" height="40"/>
+                                <color key="backgroundColor" red="0.42352941179999998" green="0.23137254900000001" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="6gF-1u-328"/>
+                                    <constraint firstAttribute="height" constant="40" id="H6q-5F-Hs5"/>
+                                </constraints>
+                                <state key="normal" title="Student 4">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="uiK-6A-Rxm" kind="show" id="C7Z-S5-u0t"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OOq-W6-X3K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100" id="LUi-rL-6PP"/>
+                            <constraint firstItem="Ulo-uH-zbV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-50" id="QGB-yk-Wue"/>
+                            <constraint firstItem="oYE-bi-jDE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-50" id="dY4-m5-uXw"/>
+                            <constraint firstItem="Cit-oD-BJx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-100" id="f18-3k-ciS"/>
+                            <constraint firstItem="OOq-W6-X3K" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="50" id="jf2-Qo-S0e"/>
+                            <constraint firstItem="Ulo-uH-zbV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-100" id="mvc-u8-AZO"/>
+                            <constraint firstItem="oYE-bi-jDE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100" id="sf9-vb-8qO"/>
+                            <constraint firstItem="Cit-oD-BJx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="50" id="zZE-bh-WPa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="student1Button" destination="Ulo-uH-zbV" id="4kl-s6-td2"/>
+                        <outlet property="student2Button" destination="oYE-bi-jDE" id="H26-5P-LNY"/>
+                        <outlet property="student3Button" destination="Cit-oD-BJx" id="w2G-uU-KGW"/>
+                        <outlet property="student4Button" destination="OOq-W6-X3K" id="BXT-ub-R2Q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="134"/>
+        </scene>
+        <!--Student4Storyboard-->
+        <scene sceneID="FpQ-pA-HEb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Student4Storyboard" id="uiK-6A-Rxm" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Rdt-uv-oxl"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DUN-4y-jyG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="982" y="376"/>
+        </scene>
+        <!--Student1Storyboard-->
+        <scene sceneID="rGp-Xr-OGI">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Student1Storyboard" id="2KE-xl-tS6" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="4U6-Ph-b8q"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GP9-2J-P35" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="982" y="-101"/>
+        </scene>
+        <!--Student2Storyboard-->
+        <scene sceneID="Bh0-dK-Vym">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Student2Storyboard" id="nuj-Wg-nlI" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="eCm-ez-W31"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nZg-0c-1kr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="982" y="61"/>
+        </scene>
+        <!--Student3Storyboard-->
+        <scene sceneID="FFo-f7-Q5M">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Student3Storyboard" id="fjv-2r-uVb" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="xwr-bN-Boh"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6JH-X1-V1N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="982" y="209"/>
+        </scene>
+    </scenes>
+</document>
