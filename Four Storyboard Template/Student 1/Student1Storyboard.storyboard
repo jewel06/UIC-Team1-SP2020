@@ -2,7 +2,11 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RQQ-7o-tFV">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+<<<<<<< HEAD
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+=======
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+>>>>>>> 52e0a1a8e5f8a3c83363d5f7de4aebf9caaf3b0c
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -25,8 +29,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+<<<<<<< HEAD
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jewel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u3H-uF-Yie">
                                 <rect key="frame" x="185" y="501" width="44" height="21"/>
+=======
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4x-6a-EcR">
+                                <rect key="frame" x="188" y="573" width="38" height="21"/>
+>>>>>>> 52e0a1a8e5f8a3c83363d5f7de4aebf9caaf3b0c
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -35,8 +44,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="H7A-5W-EN0" firstAttribute="centerY" secondItem="MFj-bU-ViS" secondAttribute="centerY" id="DG3-ym-0kL"/>
+<<<<<<< HEAD
                             <constraint firstItem="u3H-uF-Yie" firstAttribute="top" secondItem="H7A-5W-EN0" secondAttribute="bottom" constant="42.5" id="KfM-nL-zgE"/>
                             <constraint firstItem="u3H-uF-Yie" firstAttribute="centerX" secondItem="H7A-5W-EN0" secondAttribute="centerX" id="Zs0-3a-RXA"/>
+=======
+                            <constraint firstItem="USp-1X-JcP" firstAttribute="bottom" secondItem="X4x-6a-EcR" secondAttribute="bottom" constant="268" id="cNv-da-Mb3"/>
+                            <constraint firstItem="X4x-6a-EcR" firstAttribute="centerX" secondItem="H7A-5W-EN0" secondAttribute="centerX" id="fTY-uj-wGq"/>
+>>>>>>> 52e0a1a8e5f8a3c83363d5f7de4aebf9caaf3b0c
                             <constraint firstItem="H7A-5W-EN0" firstAttribute="centerX" secondItem="MFj-bU-ViS" secondAttribute="centerX" id="kT0-yE-fOo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="USp-1X-JcP"/>
