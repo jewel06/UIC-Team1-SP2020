@@ -25,10 +25,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Colin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Edz-VJ-J70">
+                                <rect key="frame" x="186" y="514" width="39" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="Edz-VJ-J70" firstAttribute="top" secondItem="Y80-JA-7hc" secondAttribute="bottom" constant="55.5" id="Pka-0g-Hrv"/>
                             <constraint firstItem="Y80-JA-7hc" firstAttribute="centerX" secondItem="DyA-9e-AoX" secondAttribute="centerX" id="Pkh-Ma-A1y"/>
+                            <constraint firstItem="Edz-VJ-J70" firstAttribute="leading" secondItem="2lj-UN-uTA" secondAttribute="leading" constant="186" id="fmt-HF-acQ"/>
                             <constraint firstItem="Y80-JA-7hc" firstAttribute="centerY" secondItem="DyA-9e-AoX" secondAttribute="centerY" id="rnW-TF-4Dv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2lj-UN-uTA"/>
