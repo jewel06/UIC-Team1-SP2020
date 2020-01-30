@@ -18,9 +18,9 @@
 		3B52583F23C7DE6400EE2E98 /* Student4Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B52583E23C7DE6400EE2E98 /* Student4Storyboard.storyboard */; };
 		3B52584123C7DEF000EE2E98 /* Student1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52584023C7DEF000EE2E98 /* Student1ViewController.swift */; };
 		3B52584323C7DF0800EE2E98 /* Student2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52584223C7DF0800EE2E98 /* Student2ViewController.swift */; };
-		3B52584523C7DF6F00EE2E98 /* Student3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52584423C7DF6F00EE2E98 /* Student3ViewController.swift */; };
 		3B52584723C7DFB500EE2E98 /* Student4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52584623C7DFB500EE2E98 /* Student4ViewController.swift */; };
 		3B52584923C7E1D500EE2E98 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52584823C7E1D500EE2E98 /* MainViewController.swift */; };
+		3C4A864523E11E0900BF74C1 /* Student3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52584423C7DF6F00EE2E98 /* Student3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -208,7 +208,7 @@
 			files = (
 				3B52584723C7DFB500EE2E98 /* Student4ViewController.swift in Sources */,
 				3B52581E23C7DDB200EE2E98 /* AppDelegate.swift in Sources */,
-				3B52584523C7DF6F00EE2E98 /* Student3ViewController.swift in Sources */,
+				3C4A864523E11E0900BF74C1 /* Student3ViewController.swift in Sources */,
 				3B52584123C7DEF000EE2E98 /* Student1ViewController.swift in Sources */,
 				3B52582023C7DDB200EE2E98 /* SceneDelegate.swift in Sources */,
 				3B52584323C7DF0800EE2E98 /* Student2ViewController.swift in Sources */,
