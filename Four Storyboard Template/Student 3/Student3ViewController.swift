@@ -1,30 +1,39 @@
 //
-//  Student3ViewController.swift
-//  Four Storyboard Template
+//  ViewController.swift
+//  abroad
 //
-//  Created by Colin Hoffman on 1/9/20.
-//  Copyright © 2020 App Factory. All rights reserved.
+//  Created by jewel mathew on 11/18/19.
+//  Copyright © 2019 jewel mathew. All rights reserved.
 //
 
 import UIKit
 
-class Student3ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
+   
+    @IBOutlet weak var emailField: UITextField!
+    
+    
+    @IBOutlet weak var passwordField: UITextField!
+    
     override func viewDidLoad() {
+        emailField.delegate = self
+        passwordField.delegate = self
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
     }
-    */
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if textField == emailField{
+            passwordField.becomeFirstResponder()
+        }else if textField == passwordField{
+            textField.resignFirstResponder()
+        }
+        return true
+    }
+    }
 
-}
+
+
